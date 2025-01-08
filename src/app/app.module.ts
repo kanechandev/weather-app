@@ -9,18 +9,18 @@ import { FormsModule } from '@angular/forms';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 @NgModule({
-  declarations: [
-    AppComponent
-  ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule,
-    BrowserAnimationsModule,
-    HttpClientModule,
-    FormsModule,
-    FontAwesomeModule
-  ],
-  providers: [],
-  bootstrap: [AppComponent]
+declarations: [
+AppComponent
+],
+imports: [
+BrowserModule,
+AppRoutingModule,
+BrowserAnimationsModule,
+HttpClientModule,
+FormsModule,
+FontAwesomeModule
+],
+providers: [],
+bootstrap: [AppComponent]
 })
 export class AppModule { }
